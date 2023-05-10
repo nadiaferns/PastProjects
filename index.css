@@ -1,0 +1,166 @@
+body{    
+background-image:url("img.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+
+a{
+    text-decoration: none ; 
+}
+
+ 
+ .flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+.nav{
+    margin: auto;
+    background-color:seashell;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-pills{
+    color: mistyrose;
+    background-color: seashell;
+    
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+ .nav-items{
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+}
+.nav .nav-top{
+    display: flex;
+    flex-direction: column;
+}
+.nav .nav-brand a{
+    font-size:3.5rem;
+    padding:100rem;
+    
+}
+.nav-item a:hover {
+    background-color: #06b2fc;
+    color: Li;
+  }
+.container h1{
+    color: rgb(96, 8, 89);
+}
+.blog{
+    margin: solid yellow;
+    background-color: rgb(37, 219, 255);
+    padding: 70px;
+}
+.blog a{
+    color: blueviolet;
+}
+.reg_form{
+    background-color: rgb(186, 223, 253);
+    border: 5px solid darkblue;
+    width: 1000px;
+    margin: auto;
+    padding: 70px;
+    
+}
+.homepg{
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 40%;
+    padding: 30px;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(45, 195, 250);
+}
+.homepg button{
+    background-color: #06b2fc;
+    color: blue;
+    border-radius: 5%;
+    padding: 30px;
+}
+.container{
+    margin: auto;
+    width: 200px;
+     padding:30px;
+    background-color: rgb(127, 246, 255);
+    border: solid 2px darkblue;
+}
+/*.searchbar {
+    width:300px;
+    height:20px;
+    padding:0px 1px 60px 230px;
+    border:none;
+    margin-top:1px;
+    margin-right:2px;
+    font-size:30px;
+}*/
+.bckg_image {
+   margin:25px 25px 25px 25px;
+border: solid 10px papayawhip;
+}
+.caption1 {
+   position: absolute;
+   top:120px;
+   left: 338px;
+   font-style:oblique;
+   font-family: sans-serif;
+   color:rgb(1, 212, 249);
+}
+.caption2 {
+   position: absolute;
+   top:165px;
+   left: 412px;
+   font-style:oblique;
+   font-family: sans-serif;
+   color:aqua;
+}
+.caption3 {
+   position: absolute;
+   top:210px;
+   left:489px;
+   font-style:oblique;
+   font-family: verdana;
+   color:white;
+}
+.Upldproj{
+    width:750px;
+    padding:10px ;
+    border: 2px solid #4B0082;
+    border-radius: 10%;
+  
+  }
+  .vwproj{
+    padding:10px;
+    border: 2px solid #37045b;
+    border-radius: 10%;
+    width: 750px;
+  }
+  .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .reg_form{
+    background-color: rgb(155, 213, 249);
+    border: 5px solid darkblue;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+  }
+  .registerbtn {  
+    background-color: #071e71;  
+    color: #fdfefe;  
+    height: 20px;
+    width: 50px;
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }  

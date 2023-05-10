@@ -1,0 +1,68 @@
+<?php
+require_once('connection.php');
+?>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Registration Form </title>
+    
+<!--Custom Style     -->
+<link rel="stylesheet" href="styles.php">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<style type="text/css">
+	form{
+		 border: solid rgb(6, 6, 158);
+                background-color: rgb(120, 161, 250);
+                padding: 10px;
+                margin-right: 500px;
+                margin: auto;
+                width: 650px;
+	}
+	table{
+                border-collapse: collapse;
+            }
+            button{
+                background-color: rgb(120, 120, 120);
+                color: white;
+            }	
+	</style>    
+</head>
+    <body>
+    <div class="navv">
+        <ul class=" nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="project_blog.php?dep= ">PROJECTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">ABOUT</a>
+    </li>
+  <li class="nav-item">
+      <a class="nav-link active" href="#">UPLOAD PROJECT</a>
+    </li>
+    
+  </ul>
+</div>
+
+	<h1 align="center">PROJECT UPLOAD FORM</h1>
+	<form action="#" method="POST" border="solid 2px black">
+		Enter Project Title: <input type="text" name="pname" placeholder="Project Title"> &nbsp;&nbsp;&nbsp;
+            <br><br>
+            Enter Student's Name: <input type="text" name="sname" > &nbsp;&nbsp;&nbsp;
+            <br><br>
+           
+            Project Description: <textarea name="project description"> </textarea><br><br>
+            <p>Click on the "Choose File" button to upload a file:</p>
+            Project_Report file: <input type="file" id="myFile" name="filename">
+            <br></br>
+            <p>Upload an image of the project</p>
+            Upload Image:<input type="file" accept="image/*"><br></br>
+            <input type="submit" name="submit"> &nbsp;&nbsp; <input type="RESET">
+        </form>
+	</div>
+</body>
+</html>

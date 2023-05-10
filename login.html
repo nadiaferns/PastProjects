@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background: rgb(18,7,243);
+background: linear-gradient(90deg, rgba(18,7,243,1) 13%, rgba(215,10,238,1) 66%);
+
+}  
+</style>
+<title>LOGIN</title>
+<link rel="stylesheet"  href="login.css">
+<link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+  <div>
+    <ul class=" nav nav-pills">
+<li class="nav-item">
+  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="project_blog.php?dep= ">PROJECTS</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="index.html">ABOUT</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" href="login.html">UPLOAD PROJECT</a>
+</li>
+
+</ul>
+<br><br>
+</div>
+  <form method="post" action="login.php">
+    <div class="container">
+      <label for="uname"><b>USERNAME</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+<br><br>
+      <label for="psw"><b>PASSWORD</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+<br><br>
+      <button type="Submit" class="btn btn-info btn-lg">LOGIN</button>
+<br><br>
+  <p>Not registered? <a href="registration.html"><button type="button" class="btn btn-success">REGISTER</button></a></p>
+<br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+<br> 
+  </form>
+</div>
+</body>
+</html>

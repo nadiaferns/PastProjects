@@ -1,0 +1,139 @@
+@import url('../css/fonts.css');
+
+body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    background: rgb(8,39,213);
+background: linear-gradient(90deg, rgba(8,39,213,1) 0%, rgba(40,69,230,1) 39%, rgba(7,226,251,1) 100%);
+}
+
+a{
+    text-decoration: none ; 
+}
+
+ 
+ .flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+.nav{
+    margin: auto;
+    background-color: rgb(124, 217, 248);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav .nav-pills{
+    color: purple;
+    background-color: plum;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+ .nav-items{
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+}
+.nav .nav-top{
+    display: flex;
+    flex-direction: column;
+}
+.nav .nav-brand a{
+    font-size:1.5rem;
+    padding:5rem;
+    
+}
+.nav-item a:hover {
+    background-color: #06b2fc;
+    color: Li;
+  }
+.container h1{
+    color: rgb(96, 8, 89);
+}
+.blog{
+    margin: solid blue;
+    background-color: rgb(37, 219, 255);
+    padding: 10px;
+}
+.blog a{
+    color: blueviolet;
+}
+
+.homepg{
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 40%;
+    padding: 30px;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(45, 195, 250);
+}
+.homepg button{
+    background-color: #06b2fc;
+    color: blue;
+    border-radius: 5%;
+    padding: 10px;
+}
+.container{
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(127, 246, 255);
+    border: solid 2px darkblue;
+}
+
+  .col md-4{
+    flex: auto;
+  }
+  
+  .gallery h1 {
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 28px;
+  }
+  .blog{
+    border: 2px rgb(2, 2, 76);
+    background-color: #4fc9fd;
+    border-radius: 5%;
+  }
+  .blog a{
+    text-decoration-line: none;
+  }
+  article figure img {
+    width: 250px;
+    height: 150px;
+  }
+  .col-md-2{
+    width: 75%;
+  }
+  .my-5{
+    width: 75%;
+    margin-bottom: 0;
+  }
+  .reg_form{
+    background-color: rgb(113, 199, 252);
+    border: 5px solid darkblue;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+  }
+  .registerbtn {  
+    background-color: #071e71;  
+    color: #fdfefe;  
+    height: 20px;
+    width: 50px;
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }  
+  
+  
